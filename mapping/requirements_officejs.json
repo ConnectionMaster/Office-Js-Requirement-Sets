@@ -149,7 +149,20 @@
 								}
 							],
 							"availability": "GA"
-                        },
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.13",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.50.0.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
 						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
@@ -821,6 +834,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.13",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.46.0.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -1052,6 +1078,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "AddinCommands",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.44.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "CompressedFile",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -1101,17 +1138,6 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.38.0.0",
-									"version": null
-								}
-							}],
-							"availability": "GA"
-						},
-						{
-							"name": "RibbonApi",
-							"apiVersion": "1.2",
-							"supportedProductVersions": [{
-								"from": {
-									"build": "16.44.0.0",
 									"version": null
 								}
 							}],
@@ -1578,8 +1604,18 @@
 							"apiVersion": "1.8",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.0.10730.20102",
-									"version": "1808"
+									"build": "16.0.10336.10000",
+									"version": null
+								},
+								"to": {
+									"build": "16.0.10699.10000",
+									"version": null
+								}
+							},
+							{
+							"from": {
+								"build": "16.0.10730.20102",
+								"version": "1808"
 								}
 							}],
 							"availability": "GA"
@@ -1629,7 +1665,20 @@
 								}
 							],
 							"availability": "GA"
-                        },
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.13",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.13801.20738",
+										"version": "2102"
+									}
+								}
+							],
+							"availability": "GA"
+						},
 						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
@@ -1797,6 +1846,16 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0"
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.13530.20064"
 								}
 							}],
 							"availability": "GA"
@@ -2120,7 +2179,12 @@
 							"name": "ExcelApi",
 							"apiVersion": "1.12",
 							"availability": "GA"
-                        },
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.13",
+							"availability": "GA"
+						},
 						{
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
@@ -2164,6 +2228,11 @@
 						{
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.2",
 							"availability": "GA"
 						},
 						{
@@ -2604,17 +2673,6 @@
 						},
 						{
 							"name": "OoxmlCoercion",
-							"apiVersion": "1.1",
-							"supportedProductVersions": [{
-								"from": {
-									"build": "1.18",
-									"version": null
-								}
-							}],
-							"availability": "GA"
-						},
-						{
-							"name": "PdfFile",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
@@ -3543,6 +3601,17 @@
 								}
 							}],
 							"availability": "GA"
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.44.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -4223,6 +4292,11 @@
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
 							"availability": "GA"
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.2",
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -4706,6 +4780,16 @@
 								}
 							}],
 							"availability": "GA"
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.13530.20064"
+								}
+							}],
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -5052,18 +5136,7 @@
 								}
 							}],
 							"availability": "GA"
-                        },
-						{
-							"name": "PowerPointApi",
-							"apiVersion": "1.2",
-							"supportedProductVersions": [{
-								"from": {
-									"build": "16.43.0.0",
-									"version": null
-								}
-							}],
-							"availability": "GA"
-                        }
+						}
 					],
 					"supportedMethods": [{
 							"name": "Document.addHandlerAsync",
@@ -5210,7 +5283,18 @@
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
 							"availability": "GA"
-                        },
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.44.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
 						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
@@ -5298,18 +5382,18 @@
 								}
 							}],
 							"availability": "GA"
-                        },
+						},
 						{
 							"name": "PowerPointApi",
 							"apiVersion": "1.2",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.0.13426.20184",
+									"build": "16.43.0.0",
 									"version": null
 								}
 							}],
 							"availability": "GA"
-                        }
+						}
 					],
 					"supportedMethods": [{
 							"name": "Document.addHandlerAsync",
@@ -5631,12 +5715,33 @@
 							"availability": "GA"
 						},
 						{
+							"name": "AddinCommands",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.13530.20064"
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "PowerPointApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.11001.20074",
 									"version": "1810"
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.13426.20184",
+									"version": null
 								}
 							}],
 							"availability": "GA"
@@ -6310,7 +6415,18 @@
 								}
 							}],
 							"availability": "GA"
-                        },
+                        			},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.10",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.20.3863.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+                        			},
 						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
@@ -6762,7 +6878,18 @@
 								}
 							}],
 							"availability": "GA"
-                        }
+                        			},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.10",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.20.3863.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+                        			}
 					],
 					"supportedMethods": []
 				}
